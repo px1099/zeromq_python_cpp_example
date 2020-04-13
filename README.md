@@ -34,9 +34,9 @@ make
 * Run the programs:
     * In the 1st terminal: `./ZeroMQExample`
     * In the 2nd terminal: `python zmq_client.py`
-* References:
-    * [zeromq](https://zeromq.org/)
-    * [cppzmq](https://github.com/zeromq/cppzmq)
-    * [pyzmq](https://github.com/zeromq/pyzmq)
-    * [example from wonkoderverstaendige](https://gist.github.com/wonkoderverstaendige/7521416)
-    * [unknown CMake command "catch_discover_tests" issue](https://github.com/zeromq/cppzmq/issues/334)
+## References:
+* [zeromq](https://zeromq.org/)
+* [cppzmq](https://github.com/zeromq/cppzmq)
+* [pyzmq](https://github.com/zeromq/pyzmq)
+* [example from wonkoderverstaendige](https://gist.github.com/wonkoderverstaendige/7521416)
+* [unknown CMake command "catch_discover_tests" issue](https://github.com/zeromq/cppzmq/issues/334)

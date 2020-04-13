@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(ZeroMQExample)
+find_package(cppzmq)
+add_executable(ZeroMQExample zmq_server.cpp)
+target_link_libraries(ZeroMQExample cppzmq)

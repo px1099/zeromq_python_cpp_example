@@ -31,9 +31,9 @@ sudo make -j4 install
 cmake .
 make
 ```
-* Run the programs:
-    * In the 1st terminal: `./ZeroMQExample`
-    * In the 2nd terminal: `python zmq_client.py`
+## Run the programs:
+* In the 1st terminal: `./ZeroMQExample`
+* In the 2nd terminal: `python zmq_client.py`
 ## References:
 * [zeromq](https://zeromq.org/)
 * [cppzmq](https://github.com/zeromq/cppzmq)

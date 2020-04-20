@@ -15,5 +15,5 @@ for request in range(10):
     # Get the reply
     print(f"Awaiting reply {request} ...")
     message = socket.recv()
-    decoded_message = message.decode("UTF-8")
+    decoded_message = float(message.decode("UTF-8").rstrip("\x00"))
     print(f"Received reply {request}: {decoded_message}")

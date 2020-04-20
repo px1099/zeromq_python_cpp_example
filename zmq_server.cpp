@@ -12,8 +12,10 @@ void reply_thread() {
 		zmq::message_t request;
 		sock.recv(&request);
 		std::cout << "Received Hello" << std::endl;
-		zmq::message_t reply(5);
-		memcpy((void *) reply.data(), "World", 5);
+		zmq::message_t reply(10);
+		double number = 123.456;
+		std::string number_str = std::to_string(number);
+		memcpy((void *) reply.data(), number_str.c_str(), 10);
 		sock.send(reply);
 	}
 	return;
